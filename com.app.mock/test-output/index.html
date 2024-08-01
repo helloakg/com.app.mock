@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-EcomSuite" class="navigator-link">
+              <span class="suite-name border-passed">EcomSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-EcomSuite" class="navigator-link ">
+                    <span>D:\Eclipse_Workspace\Selenium_E22\com.app.mock\EcomSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-EcomSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-EcomSuite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-EcomSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-EcomSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-EcomSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-EcomSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-EcomSuite" class="hide-methods passed suite-EcomSuite"> (hide)</a> <!-- hide-methods passed suite-EcomSuite -->
+                      <a href="#" panel-name="suite-EcomSuite" class="show-methods passed suite-EcomSuite"> (show)</a> <!-- show-methods passed suite-EcomSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-EcomSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcomSuite" title="com.app.mock.ecomTest.LaunchAmazonTest" class="method navigator-link" hash-for-method="launchAmazonTest(public void com.app.mock.ecomTest.LaunchAmazonTest.launchAmazonTest(java.lang.reflect.Method))">launchAmazonTest(public void com.app.mock.ecomTest.LaunchAmazonTest.launchAmazonTest(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcomSuite" title="com.app.mock.ecomTest.LaunchFlipkartTest" class="method navigator-link" hash-for-method="launchFlipkartTest(public void com.app.mock.ecomTest.LaunchFlipkartTest.launchFlipkartTest(java.lang.reflect.Method))">launchFlipkartTest(public void com.app.mock.ecomTest.LaunchFlipkartTest.launchFlipkartTest(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-EcomSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-EcomSuite" class="panel EcomSuite">
+          <div class="suite-EcomSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.app.mock.ecomTest.LaunchFlipkartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchFlipkartTest(public void com.app.mock.ecomTest.LaunchFlipkartTest.launchFlipkartTest(java.lang.reflect.Method))">
+                  </a> <!-- launchFlipkartTest(public void com.app.mock.ecomTest.LaunchFlipkartTest.launchFlipkartTest(java.lang.reflect.Method)) -->
+                  <span class="method-name">launchFlipkartTest</span>
+                  <span class="parameters">(public void com.app.mock.ecomTest.LaunchFlipkartTest.launchFlipkartTest(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EcomSuite-class-passed -->
+          <div class="suite-EcomSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.app.mock.ecomTest.LaunchAmazonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchAmazonTest(public void com.app.mock.ecomTest.LaunchAmazonTest.launchAmazonTest(java.lang.reflect.Method))">
+                  </a> <!-- launchAmazonTest(public void com.app.mock.ecomTest.LaunchAmazonTest.launchAmazonTest(java.lang.reflect.Method)) -->
+                  <span class="method-name">launchAmazonTest</span>
+                  <span class="parameters">(public void com.app.mock.ecomTest.LaunchAmazonTest.launchAmazonTest(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EcomSuite-class-passed -->
+        </div> <!-- panel EcomSuite -->
+        <div panel-name="test-xml-EcomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Eclipse_Workspace\Selenium_E22\com.app.mock\EcomSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;EcomSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;ecom&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;ecom&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EcomTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.app.mock.beautyTest.LaunchSugarTest&quot;/&gt;
+      &lt;class name=&quot;com.app.mock.entertainmentTest.LaunchNetflixTest&quot;/&gt;
+      &lt;class name=&quot;com.app.mock.ecomTest.LaunchAmazonTest&quot;/&gt;
+      &lt;class name=&quot;com.app.mock.ecomTest.LaunchFlipkartTest&quot;/&gt;
+      &lt;class name=&quot;com.app.mock.entertainmentTest.LaunchPrimeTest&quot;/&gt;
+      &lt;class name=&quot;com.app.mock.foodTest.LaunchSwigyTest&quot;/&gt;
+      &lt;class name=&quot;com.app.mock.beautyTest.LaunchLorealTest&quot;/&gt;
+      &lt;class name=&quot;com.app.mock.foodTest.LaunchZomatoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EcomTest --&gt;
+&lt;/suite&gt; &lt;!-- EcomSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-EcomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for EcomSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">EcomTest (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-EcomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for EcomSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">ecom</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchAmazonTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchFlipkartTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-EcomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for EcomSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_EcomSuite');
+function tableData_EcomSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchFlipkartTest')
+data.setCell(0, 2, 'com.app.mock.ecomTest.LaunchFlipkartTest')
+data.setCell(0, 3, 1629);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'launchAmazonTest')
+data.setCell(1, 2, 'com.app.mock.ecomTest.LaunchAmazonTest')
+data.setCell(1, 3, 1355);
+window.suiteTableData['EcomSuite']= { tableData: data, tableDiv: 'times-div-EcomSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-EcomSuite">
+              </div> <!-- times-div-EcomSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-EcomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for EcomSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchAmazonTest(public void com.app.mock.ecomTest.LaunchAmazonTest.launchAmazonTest(java.lang.reflect.Method))</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Executing launchAmazonTest</span>
+                <span class="reporter-method-output">Launching Amazon...</span>
+                <span class="reporter-method-output">Amazon launched...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchFlipkartTest(public void com.app.mock.ecomTest.LaunchFlipkartTest.launchFlipkartTest(java.lang.reflect.Method))</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Executing launchFlipkartTest</span>
+                <span class="reporter-method-output">Launching Flipkart...</span>
+                <span class="reporter-method-output">Flipkart launched...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-EcomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.app.mock.beautyTest.LaunchSugarTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchSugarTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.app.mock.foodTest.LaunchZomatoTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchZomatoTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.app.mock.beautyTest.LaunchLorealTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchLorealTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.app.mock.entertainmentTest.LaunchNetflixTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchNetflixTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.app.mock.entertainmentTest.LaunchPrimeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchPrimeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.app.mock.foodTest.LaunchSwigyTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchSwiggyTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-EcomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.app.mock.ecomTest.LaunchAmazonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">launchAmazonTest(public void com.app.mock.ecomTest.LaunchAmazonTest.launchAmazonTest(java.lang.reflect.Method))</span>
+                <span class="method-start">2494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">confidAF</span>
+                <span class="method-start">3853 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">3861 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.app.mock.ecomTest.LaunchFlipkartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC(firefox)</span>
+                <span class="method-start">4790 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">launchFlipkartTest(public void com.app.mock.ecomTest.LaunchFlipkartTest.launchFlipkartTest(java.lang.reflect.Method))</span>
+                <span class="method-start">7289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">confidAF</span>
+                <span class="method-start">8920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">8920 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

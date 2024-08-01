@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BeautySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BeautyTest(failed)">
+    <groups>
+      <run>
+        <include name="beauty"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.app.mock.beautyTest.LaunchSugarTest">
+        <methods>
+          <include name="launchSugarTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.app.mock.beautyTest.LaunchSugarTest -->
+      <class name="com.app.mock.beautyTest.LaunchLorealTest">
+        <methods>
+          <include name="launchLorealTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.app.mock.beautyTest.LaunchLorealTest -->
+    </classes>
+  </test> <!-- BeautyTest(failed) -->
+</suite> <!-- Failed suite [BeautySuite] -->

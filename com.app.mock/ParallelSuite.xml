@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="ParallelSuite">
+	<test name="ParallelTest1">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.app.mock.beautyTest.LaunchSugarTest" />
+			<class name="com.app.mock.beautyTest.LaunchLorealTest" />
+		</classes>
+	</test>
+
+	<test name="ParallelTest2">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.app.mock.ecomTest.LaunchAmazonTest" />
+			<class name="com.app.mock.ecomTest.LaunchFlipkartTest" />
+		</classes>
+	</test>
+
+	<test name="ParallelTest3">
+		<parameter name="browser" value="microsoftedge"></parameter>
+		<classes>
+			<class name="com.app.mock.entertainmentTest.LaunchPrimeTest" />
+			<class name="com.app.mock.entertainmentTest.LaunchNetflixTest" />
+		</classes>
+	</test>
+
+	<test name="ParallelTest4">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.app.mock.foodTest.LaunchSwigyTest" />
+			<class name="com.app.mock.foodTest.LaunchZomatoTest" />
+		</classes>
+	</test>
+</suite> 

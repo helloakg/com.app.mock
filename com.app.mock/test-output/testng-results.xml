@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[firefox browser launched---]]>
+    </line>
+    <line>
+      <![CDATA[Executing launchAmazonTest]]>
+    </line>
+    <line>
+      <![CDATA[Launching Amazon...]]>
+    </line>
+    <line>
+      <![CDATA[Amazon launched...]]>
+    </line>
+    <line>
+      <![CDATA[--Test case executed-]]>
+    </line>
+    <line>
+      <![CDATA[--Browser closed---
+]]>
+    </line>
+    <line>
+      <![CDATA[firefox browser launched---]]>
+    </line>
+    <line>
+      <![CDATA[Executing launchFlipkartTest]]>
+    </line>
+    <line>
+      <![CDATA[Launching Flipkart...]]>
+    </line>
+    <line>
+      <![CDATA[Flipkart launched...]]>
+    </line>
+    <line>
+      <![CDATA[--Test case executed-]]>
+    </line>
+    <line>
+      <![CDATA[--Browser closed---
+]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-01T16:26:17 IST" name="EcomSuite" finished-at="2024-08-01T16:26:26 IST" duration-ms="9624">
+    <groups>
+      <group name="ecom">
+        <method signature="LaunchAmazonTest.launchAmazonTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.ecomTest.LaunchAmazonTest@6771beb3]" name="launchAmazonTest" class="com.app.mock.ecomTest.LaunchAmazonTest"/>
+        <method signature="LaunchFlipkartTest.launchFlipkartTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.ecomTest.LaunchFlipkartTest@51399530]" name="launchFlipkartTest" class="com.app.mock.ecomTest.LaunchFlipkartTest"/>
+      </group> <!-- ecom -->
+    </groups>
+    <test started-at="2024-08-01T16:26:17 IST" name="EcomTest" finished-at="2024-08-01T16:26:26 IST" duration-ms="9624">
+      <class name="com.app.mock.ecomTest.LaunchFlipkartTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.app.mock.ecomTest.LaunchFlipkartTest@51399530]" started-at="2024-08-01T16:26:22 IST" name="configBC" finished-at="2024-08-01T16:26:24 IST" duration-ms="2499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox browser launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="launchFlipkartTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.ecomTest.LaunchFlipkartTest@51399530]" started-at="2024-08-01T16:26:24 IST" name="launchFlipkartTest" finished-at="2024-08-01T16:26:26 IST" duration-ms="1629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.mock.ecomTest.LaunchFlipkartTest.launchFlipkartTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing launchFlipkartTest]]>
+            </line>
+            <line>
+              <![CDATA[Launching Flipkart...]]>
+            </line>
+            <line>
+              <![CDATA[Flipkart launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchFlipkartTest -->
+        <test-method is-config="true" signature="confidAF()[pri:0, instance:com.app.mock.ecomTest.LaunchFlipkartTest@51399530]" started-at="2024-08-01T16:26:26 IST" name="confidAF" finished-at="2024-08-01T16:26:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Test case executed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confidAF -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.app.mock.ecomTest.LaunchFlipkartTest@51399530]" started-at="2024-08-01T16:26:26 IST" name="configAC" finished-at="2024-08-01T16:26:26 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser closed---
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.app.mock.ecomTest.LaunchFlipkartTest -->
+      <class name="com.app.mock.ecomTest.LaunchAmazonTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.app.mock.ecomTest.LaunchAmazonTest@6771beb3]" started-at="2024-08-01T16:26:17 IST" name="configBC" finished-at="2024-08-01T16:26:19 IST" duration-ms="2488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox browser launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="launchAmazonTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.ecomTest.LaunchAmazonTest@6771beb3]" started-at="2024-08-01T16:26:19 IST" name="launchAmazonTest" finished-at="2024-08-01T16:26:21 IST" duration-ms="1355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.mock.ecomTest.LaunchAmazonTest.launchAmazonTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing launchAmazonTest]]>
+            </line>
+            <line>
+              <![CDATA[Launching Amazon...]]>
+            </line>
+            <line>
+              <![CDATA[Amazon launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAmazonTest -->
+        <test-method is-config="true" signature="confidAF()[pri:0, instance:com.app.mock.ecomTest.LaunchAmazonTest@6771beb3]" started-at="2024-08-01T16:26:21 IST" name="confidAF" finished-at="2024-08-01T16:26:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Test case executed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confidAF -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.app.mock.ecomTest.LaunchAmazonTest@6771beb3]" started-at="2024-08-01T16:26:21 IST" name="configAC" finished-at="2024-08-01T16:26:22 IST" duration-ms="928" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser closed---
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.app.mock.ecomTest.LaunchAmazonTest -->
+    </test> <!-- EcomTest -->
+  </suite> <!-- EcomSuite -->
+</testng-results>

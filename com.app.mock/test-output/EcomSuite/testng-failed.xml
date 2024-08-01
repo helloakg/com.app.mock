@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EcomSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="EcomTest(failed)">
+    <groups>
+      <run>
+        <include name="ecom"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.app.mock.ecomTest.LaunchFlipkartTest">
+        <methods>
+          <include name="configAC"/>
+          <include name="confidAF"/>
+          <include name="configBC"/>
+          <include name="launchFlipkartTest"/>
+        </methods>
+      </class> <!-- com.app.mock.ecomTest.LaunchFlipkartTest -->
+      <class name="com.app.mock.ecomTest.LaunchAmazonTest">
+        <methods>
+          <include name="confidAF"/>
+          <include name="configAC"/>
+          <include name="configBC"/>
+          <include name="launchAmazonTest"/>
+        </methods>
+      </class> <!-- com.app.mock.ecomTest.LaunchAmazonTest -->
+    </classes>
+  </test> <!-- EcomTest(failed) -->
+</suite> <!-- Failed suite [EcomSuite] -->
