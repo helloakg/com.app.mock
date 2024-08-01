@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome browser launched---]]>
+    </line>
+    <line>
+      <![CDATA[Executing launchSugarTest]]>
+    </line>
+    <line>
+      <![CDATA[Launching Sugar Cosmetic...]]>
+    </line>
+    <line>
+      <![CDATA[Sugar cosmatics launched...]]>
+    </line>
+    <line>
+      <![CDATA[--Test case executed-]]>
+    </line>
+    <line>
+      <![CDATA[--Browser closed---
+]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched---]]>
+    </line>
+    <line>
+      <![CDATA[Executing launchLorealTest]]>
+    </line>
+    <line>
+      <![CDATA[Launching Loreal Paris...]]>
+    </line>
+    <line>
+      <![CDATA[Loreal Paris launched...]]>
+    </line>
+    <line>
+      <![CDATA[--Test case executed-]]>
+    </line>
+    <line>
+      <![CDATA[--Browser closed---
+]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched---]]>
+    </line>
+    <line>
+      <![CDATA[Executing launchNetflixTest]]>
+    </line>
+    <line>
+      <![CDATA[Launching Netflix...]]>
+    </line>
+    <line>
+      <![CDATA[Netflix launched...]]>
+    </line>
+    <line>
+      <![CDATA[--Test case executed-]]>
+    </line>
+    <line>
+      <![CDATA[--Browser closed---
+]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched---]]>
+    </line>
+    <line>
+      <![CDATA[Executing launchPrimeTest]]>
+    </line>
+    <line>
+      <![CDATA[Launching Prime...]]>
+    </line>
+    <line>
+      <![CDATA[Prime video launched...]]>
+    </line>
+    <line>
+      <![CDATA[--Test case executed-]]>
+    </line>
+    <line>
+      <![CDATA[--Browser closed---
+]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched---]]>
+    </line>
+    <line>
+      <![CDATA[Executing launchAmazonTest]]>
+    </line>
+    <line>
+      <![CDATA[Launching Amazon...]]>
+    </line>
+    <line>
+      <![CDATA[Amazon launched...]]>
+    </line>
+    <line>
+      <![CDATA[--Test case executed-]]>
+    </line>
+    <line>
+      <![CDATA[--Browser closed---
+]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched---]]>
+    </line>
+    <line>
+      <![CDATA[Executing launchFlipkartTest]]>
+    </line>
+    <line>
+      <![CDATA[Launching Flipkart...]]>
+    </line>
+    <line>
+      <![CDATA[Flipkart launched...]]>
+    </line>
+    <line>
+      <![CDATA[--Test case executed-]]>
+    </line>
+    <line>
+      <![CDATA[--Browser closed---
+]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched---]]>
+    </line>
+    <line>
+      <![CDATA[Executing launchSwiggyTest]]>
+    </line>
+    <line>
+      <![CDATA[Launching Swiggy...]]>
+    </line>
+    <line>
+      <![CDATA[Swiggy launched...]]>
+    </line>
+    <line>
+      <![CDATA[--Test case executed-]]>
+    </line>
+    <line>
+      <![CDATA[--Browser closed---
+]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched---]]>
+    </line>
+    <line>
+      <![CDATA[Executing launchZomatoTest]]>
+    </line>
+    <line>
+      <![CDATA[Launching Zomato...]]>
+    </line>
+    <line>
+      <![CDATA[Zomato launched...]]>
+    </line>
+    <line>
+      <![CDATA[--Test case executed-]]>
+    </line>
+    <line>
+      <![CDATA[--Browser closed---
+]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-01T17:01:25 IST" name="BatchSuite" finished-at="2024-08-01T17:03:20 IST" duration-ms="115650">
+    <groups>
+      <group name="ecom">
+        <method signature="LaunchAmazonTest.launchAmazonTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.ecomTest.LaunchAmazonTest@158da8e]" name="launchAmazonTest" class="com.app.mock.ecomTest.LaunchAmazonTest"/>
+        <method signature="LaunchFlipkartTest.launchFlipkartTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.ecomTest.LaunchFlipkartTest@74e52303]" name="launchFlipkartTest" class="com.app.mock.ecomTest.LaunchFlipkartTest"/>
+      </group> <!-- ecom -->
+      <group name="beauty">
+        <method signature="LaunchLorealTest.launchLorealTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.beautyTest.LaunchLorealTest@71809907]" name="launchLorealTest" class="com.app.mock.beautyTest.LaunchLorealTest"/>
+        <method signature="LaunchSugarTest.launchSugarTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.beautyTest.LaunchSugarTest@5fdcaa40]" name="launchSugarTest" class="com.app.mock.beautyTest.LaunchSugarTest"/>
+      </group> <!-- beauty -->
+      <group name="entertainment">
+        <method signature="LaunchNetflixTest.launchNetflixTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.entertainmentTest.LaunchNetflixTest@3ce1e309]" name="launchNetflixTest" class="com.app.mock.entertainmentTest.LaunchNetflixTest"/>
+        <method signature="LaunchPrimeTest.launchPrimeTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.entertainmentTest.LaunchPrimeTest@6aba2b86]" name="launchPrimeTest" class="com.app.mock.entertainmentTest.LaunchPrimeTest"/>
+      </group> <!-- entertainment -->
+      <group name="zomato">
+        <method signature="LaunchZomatoTest.launchZomatoTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.foodTest.LaunchZomatoTest@7c729a55]" name="launchZomatoTest" class="com.app.mock.foodTest.LaunchZomatoTest"/>
+      </group> <!-- zomato -->
+      <group name="swiggy">
+        <method signature="LaunchSwigyTest.launchSwiggyTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.foodTest.LaunchSwigyTest@47af7f3d]" name="launchSwiggyTest" class="com.app.mock.foodTest.LaunchSwigyTest"/>
+      </group> <!-- swiggy -->
+    </groups>
+    <test started-at="2024-08-01T17:01:25 IST" name="BatchTest" finished-at="2024-08-01T17:03:20 IST" duration-ms="115650">
+      <class name="com.app.mock.entertainmentTest.LaunchNetflixTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.app.mock.entertainmentTest.LaunchNetflixTest@3ce1e309]" started-at="2024-08-01T17:01:57 IST" name="configBC" finished-at="2024-08-01T17:01:58 IST" duration-ms="769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="launchNetflixTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.entertainmentTest.LaunchNetflixTest@3ce1e309]" started-at="2024-08-01T17:01:58 IST" name="launchNetflixTest" finished-at="2024-08-01T17:02:13 IST" duration-ms="14986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.mock.entertainmentTest.LaunchNetflixTest.launchNetflixTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing launchNetflixTest]]>
+            </line>
+            <line>
+              <![CDATA[Launching Netflix...]]>
+            </line>
+            <line>
+              <![CDATA[Netflix launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchNetflixTest -->
+        <test-method is-config="true" signature="confidAF()[pri:0, instance:com.app.mock.entertainmentTest.LaunchNetflixTest@3ce1e309]" started-at="2024-08-01T17:02:13 IST" name="confidAF" finished-at="2024-08-01T17:02:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Test case executed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confidAF -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.app.mock.entertainmentTest.LaunchNetflixTest@3ce1e309]" started-at="2024-08-01T17:02:13 IST" name="configAC" finished-at="2024-08-01T17:02:13 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser closed---
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.app.mock.entertainmentTest.LaunchNetflixTest -->
+      <class name="com.app.mock.ecomTest.LaunchFlipkartTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.app.mock.ecomTest.LaunchFlipkartTest@74e52303]" started-at="2024-08-01T17:02:18 IST" name="configBC" finished-at="2024-08-01T17:02:19 IST" duration-ms="785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="launchFlipkartTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.ecomTest.LaunchFlipkartTest@74e52303]" started-at="2024-08-01T17:02:19 IST" name="launchFlipkartTest" finished-at="2024-08-01T17:02:21 IST" duration-ms="1440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.mock.ecomTest.LaunchFlipkartTest.launchFlipkartTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing launchFlipkartTest]]>
+            </line>
+            <line>
+              <![CDATA[Launching Flipkart...]]>
+            </line>
+            <line>
+              <![CDATA[Flipkart launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchFlipkartTest -->
+        <test-method is-config="true" signature="confidAF()[pri:0, instance:com.app.mock.ecomTest.LaunchFlipkartTest@74e52303]" started-at="2024-08-01T17:02:21 IST" name="confidAF" finished-at="2024-08-01T17:02:21 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Test case executed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confidAF -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.app.mock.ecomTest.LaunchFlipkartTest@74e52303]" started-at="2024-08-01T17:02:21 IST" name="configAC" finished-at="2024-08-01T17:02:21 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser closed---
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.app.mock.ecomTest.LaunchFlipkartTest -->
+      <class name="com.app.mock.foodTest.LaunchSwigyTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.app.mock.foodTest.LaunchSwigyTest@47af7f3d]" started-at="2024-08-01T17:02:21 IST" name="configBC" finished-at="2024-08-01T17:02:21 IST" duration-ms="862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="launchSwiggyTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.foodTest.LaunchSwigyTest@47af7f3d]" started-at="2024-08-01T17:02:21 IST" name="launchSwiggyTest" finished-at="2024-08-01T17:02:50 IST" duration-ms="28484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.mock.foodTest.LaunchSwigyTest.launchSwiggyTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing launchSwiggyTest]]>
+            </line>
+            <line>
+              <![CDATA[Launching Swiggy...]]>
+            </line>
+            <line>
+              <![CDATA[Swiggy launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchSwiggyTest -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.app.mock.foodTest.LaunchSwigyTest@47af7f3d]" started-at="2024-08-01T17:02:50 IST" name="configAC" finished-at="2024-08-01T17:02:50 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser closed---
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="confidAF()[pri:0, instance:com.app.mock.foodTest.LaunchSwigyTest@47af7f3d]" started-at="2024-08-01T17:02:50 IST" name="confidAF" finished-at="2024-08-01T17:02:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Test case executed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confidAF -->
+      </class> <!-- com.app.mock.foodTest.LaunchSwigyTest -->
+      <class name="com.app.mock.ecomTest.LaunchAmazonTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.app.mock.ecomTest.LaunchAmazonTest@158da8e]" started-at="2024-08-01T17:02:16 IST" name="configBC" finished-at="2024-08-01T17:02:16 IST" duration-ms="749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="launchAmazonTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.ecomTest.LaunchAmazonTest@158da8e]" started-at="2024-08-01T17:02:16 IST" name="launchAmazonTest" finished-at="2024-08-01T17:02:18 IST" duration-ms="1716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.mock.ecomTest.LaunchAmazonTest.launchAmazonTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing launchAmazonTest]]>
+            </line>
+            <line>
+              <![CDATA[Launching Amazon...]]>
+            </line>
+            <line>
+              <![CDATA[Amazon launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAmazonTest -->
+        <test-method is-config="true" signature="confidAF()[pri:0, instance:com.app.mock.ecomTest.LaunchAmazonTest@158da8e]" started-at="2024-08-01T17:02:18 IST" name="confidAF" finished-at="2024-08-01T17:02:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Test case executed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confidAF -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.app.mock.ecomTest.LaunchAmazonTest@158da8e]" started-at="2024-08-01T17:02:18 IST" name="configAC" finished-at="2024-08-01T17:02:18 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser closed---
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.app.mock.ecomTest.LaunchAmazonTest -->
+      <class name="com.app.mock.entertainmentTest.LaunchPrimeTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.app.mock.entertainmentTest.LaunchPrimeTest@6aba2b86]" started-at="2024-08-01T17:02:13 IST" name="configBC" finished-at="2024-08-01T17:02:14 IST" duration-ms="971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="launchPrimeTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.entertainmentTest.LaunchPrimeTest@6aba2b86]" started-at="2024-08-01T17:02:14 IST" name="launchPrimeTest" finished-at="2024-08-01T17:02:16 IST" duration-ms="1578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.mock.entertainmentTest.LaunchPrimeTest.launchPrimeTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing launchPrimeTest]]>
+            </line>
+            <line>
+              <![CDATA[Launching Prime...]]>
+            </line>
+            <line>
+              <![CDATA[Prime video launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchPrimeTest -->
+        <test-method is-config="true" signature="confidAF()[pri:0, instance:com.app.mock.entertainmentTest.LaunchPrimeTest@6aba2b86]" started-at="2024-08-01T17:02:16 IST" name="confidAF" finished-at="2024-08-01T17:02:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Test case executed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confidAF -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.app.mock.entertainmentTest.LaunchPrimeTest@6aba2b86]" started-at="2024-08-01T17:02:16 IST" name="configAC" finished-at="2024-08-01T17:02:16 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser closed---
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.app.mock.entertainmentTest.LaunchPrimeTest -->
+      <class name="com.app.mock.beautyTest.LaunchSugarTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.app.mock.beautyTest.LaunchSugarTest@5fdcaa40]" started-at="2024-08-01T17:01:25 IST" name="configBC" finished-at="2024-08-01T17:01:26 IST" duration-ms="1142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="launchSugarTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.beautyTest.LaunchSugarTest@5fdcaa40]" started-at="2024-08-01T17:01:26 IST" name="launchSugarTest" finished-at="2024-08-01T17:01:55 IST" duration-ms="29077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.mock.beautyTest.LaunchSugarTest.launchSugarTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing launchSugarTest]]>
+            </line>
+            <line>
+              <![CDATA[Launching Sugar Cosmetic...]]>
+            </line>
+            <line>
+              <![CDATA[Sugar cosmatics launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchSugarTest -->
+        <test-method is-config="true" signature="confidAF()[pri:0, instance:com.app.mock.beautyTest.LaunchSugarTest@5fdcaa40]" started-at="2024-08-01T17:01:55 IST" name="confidAF" finished-at="2024-08-01T17:01:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Test case executed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confidAF -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.app.mock.beautyTest.LaunchSugarTest@5fdcaa40]" started-at="2024-08-01T17:01:55 IST" name="configAC" finished-at="2024-08-01T17:01:55 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser closed---
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.app.mock.beautyTest.LaunchSugarTest -->
+      <class name="com.app.mock.foodTest.LaunchZomatoTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.app.mock.foodTest.LaunchZomatoTest@7c729a55]" started-at="2024-08-01T17:02:50 IST" name="configBC" finished-at="2024-08-01T17:02:51 IST" duration-ms="817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="launchZomatoTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.foodTest.LaunchZomatoTest@7c729a55]" started-at="2024-08-01T17:02:51 IST" name="launchZomatoTest" finished-at="2024-08-01T17:03:20 IST" duration-ms="29156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.mock.foodTest.LaunchZomatoTest.launchZomatoTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing launchZomatoTest]]>
+            </line>
+            <line>
+              <![CDATA[Launching Zomato...]]>
+            </line>
+            <line>
+              <![CDATA[Zomato launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchZomatoTest -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.app.mock.foodTest.LaunchZomatoTest@7c729a55]" started-at="2024-08-01T17:03:20 IST" name="configAC" finished-at="2024-08-01T17:03:20 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser closed---
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="confidAF()[pri:0, instance:com.app.mock.foodTest.LaunchZomatoTest@7c729a55]" started-at="2024-08-01T17:03:20 IST" name="confidAF" finished-at="2024-08-01T17:03:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Test case executed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confidAF -->
+      </class> <!-- com.app.mock.foodTest.LaunchZomatoTest -->
+      <class name="com.app.mock.beautyTest.LaunchLorealTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.app.mock.beautyTest.LaunchLorealTest@71809907]" started-at="2024-08-01T17:01:55 IST" name="configBC" finished-at="2024-08-01T17:01:56 IST" duration-ms="843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="launchLorealTest(java.lang.reflect.Method)[pri:0, instance:com.app.mock.beautyTest.LaunchLorealTest@71809907]" started-at="2024-08-01T17:01:56 IST" name="launchLorealTest" finished-at="2024-08-01T17:01:57 IST" duration-ms="1262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.mock.beautyTest.LaunchLorealTest.launchLorealTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing launchLorealTest]]>
+            </line>
+            <line>
+              <![CDATA[Launching Loreal Paris...]]>
+            </line>
+            <line>
+              <![CDATA[Loreal Paris launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchLorealTest -->
+        <test-method is-config="true" signature="confidAF()[pri:0, instance:com.app.mock.beautyTest.LaunchLorealTest@71809907]" started-at="2024-08-01T17:01:57 IST" name="confidAF" finished-at="2024-08-01T17:01:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Test case executed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confidAF -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.app.mock.beautyTest.LaunchLorealTest@71809907]" started-at="2024-08-01T17:01:57 IST" name="configAC" finished-at="2024-08-01T17:01:57 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser closed---
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.app.mock.beautyTest.LaunchLorealTest -->
+    </test> <!-- BatchTest -->
+  </suite> <!-- BatchSuite -->
+</testng-results>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [ParallelSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="ParallelTest3(failed)" verbose="0">
+    <classes>
+      <class name="com.app.mock.entertainmentTest.LaunchNetflixTest">
+        <methods>
+          <include name="confidAF"/>
+          <include name="configAC"/>
+          <include name="configBC"/>
+          <include name="launchNetflixTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.app.mock.entertainmentTest.LaunchNetflixTest -->
+    </classes>
+  </test> <!-- ParallelTest3(failed) -->
+  <test thread-count="2" parallel="tests" name="ParallelTest1(failed)" verbose="0">
+    <classes>
+      <class name="com.app.mock.beautyTest.LaunchSugarTest">
+        <methods>
+          <include name="confidAF"/>
+          <include name="configAC"/>
+          <include name="configBC"/>
+          <include name="launchSugarTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.app.mock.beautyTest.LaunchSugarTest -->
+    </classes>
+  </test> <!-- ParallelTest1(failed) -->
+  <test thread-count="2" parallel="tests" name="ParallelTest4(failed)" verbose="0">
+    <classes>
+      <class name="com.app.mock.foodTest.LaunchZomatoTest">
+        <methods>
+          <include name="launchZomatoTest" invocation-numbers="0"/>
+          <include name="confidAF"/>
+          <include name="configAC"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.app.mock.foodTest.LaunchZomatoTest -->
+    </classes>
+  </test> <!-- ParallelTest4(failed) -->
+</suite> <!-- Failed suite [ParallelSuite] -->
